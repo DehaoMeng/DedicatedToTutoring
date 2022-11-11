@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    >
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#A2CD5A"
+        >
+        <Image
+            ohos:id="$+id:backarrow"
+            ohos:left_margin="10vp"
+            ohos:height="30vp"
+            ohos:width="40vp"
+            ohos:image_src="$media:backarrow"
+            ohos:scale_mode="stretch"
+            ohos:layout_alignment="center"
+            />
+        <Text
+            ohos:height="60vp"
+            ohos:width="match_parent"
+            ohos:text="奖学券"
+            ohos:text_size="25fp"
+            ohos:text_color="#FFFFFF"
+            ohos:text_alignment="center"
+            ohos:right_padding="50vp"
+            />
+    </DirectionalLayout>
+    <DirectionalLayout
+        ohos:id="$+id:myawardlayout"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_ability"
+        />
+</DirectionalLayout>

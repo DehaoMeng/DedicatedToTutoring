@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="150vp"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:bottom_padding="5vp"
+    ohos:background_element="$graphic:background_ability"
+    >
+    <DirectionalLayout
+        ohos:height="150vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="$graphic:background_ability_user"
+        >
+        <Image
+            ohos:id="$+id:teacherico"
+            ohos:height="120vp"
+            ohos:width="100vp"
+            ohos:scale_mode="stretch"
+            ohos:layout_alignment="center"
+            />
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="4"
+            >
+            <Text
+                ohos:id="$+id:teachername"
+                ohos:height="70vp"
+                ohos:width="match_parent"
+                ohos:text="姓名"
+                ohos:text_color="#000000"
+                ohos:text_size="30fp"
+                />
+            <Text
+                ohos:id="$+id:teacherlocate"
+                ohos:height="50vp"
+                ohos:width="match_parent"
+                ohos:text="地址"
+                ohos:text_color="#000000"
+                ohos:text_size="20fp"
+                />
+            <Text
+                ohos:id="$+id:teachergrade"
+                ohos:height="30vp"
+                ohos:width="match_parent"
+                ohos:text="年级"
+                ohos:text_color="#000000"
+                ohos:text_size="20fp"
+                />
+        </DirectionalLayout>
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="50vp"
+            ohos:right_margin="10vp"
+            >
+            <Text
+                ohos:id="$+id:teachersubject"
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:text="科目"
+                ohos:text_color="#000000"
+                ohos:text_size="25fp"
+                />
+
+        </DirectionalLayout>
+
+
+    </DirectionalLayout>
+</DirectionalLayout>

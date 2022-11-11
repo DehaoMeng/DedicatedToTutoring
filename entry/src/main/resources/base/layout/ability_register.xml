@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:background_element="$graphic:background_ability"
+    >
+    <Text
+        ohos:height="50vp"
+        ohos:width="319vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="Register"
+        ohos:text_size="19fp"
+        ohos:background_element="#FFFFFFF"
+        ohos:text_color="black"
+        ohos:top_margin="100vp"
+        ohos:text_alignment="center"
+        />
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:layout_alignment="horizontal_center"
+        ohos:orientation="horizontal"
+        ohos:top_margin="30vp"
+        >
+
+        <Image
+            ohos:height="50vp"
+            ohos:width="50vp"
+            ohos:image_src="$media:userpic"
+            ohos:left_margin="50vp"
+            ohos:scale_mode="inside"
+            />
+
+        <TextField
+            ohos:id="$+id:RegisterUserName"
+            ohos:height="50vp"
+            ohos:width="210vp"
+            ohos:background_element="#FFFFFF"
+            ohos:hint="请输入手机号"
+            ohos:text_alignment="center"
+            ohos:text_color="#999999"
+            ohos:text_size="17fp"
+            />
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:layout_alignment="horizontal_center"
+        ohos:orientation="horizontal"
+        ohos:top_margin="25vp"
+        >
+
+        <Image
+            ohos:height="50vp"
+            ohos:width="50vp"
+            ohos:image_src="$media:passwordpic"
+            ohos:left_margin="50vp"
+            ohos:scale_mode="inside"
+            />
+
+        <TextField
+            ohos:id="$+id:RegisterPassWord"
+            ohos:height="50vp"
+            ohos:width="210vp"
+            ohos:background_element="#FFFFFF"
+            ohos:hint="请输入密码"
+            ohos:hint_color="#999999"
+            ohos:layout_alignment="horizontal_center"
+            ohos:text_alignment="center"
+            ohos:text_input_type="pattern_password"
+            ohos:text_size="17fp"
+            />
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:layout_alignment="horizontal_center"
+        ohos:orientation="horizontal"
+        ohos:top_margin="25vp"
+        >
+
+        <Image
+            ohos:height="50vp"
+            ohos:width="50vp"
+            ohos:image_src="$media:passwordpic"
+            ohos:left_margin="50vp"
+            ohos:scale_mode="inside"
+            />
+
+        <TextField
+            ohos:id="$+id:AgainPassWord"
+            ohos:height="50vp"
+            ohos:width="210vp"
+            ohos:background_element="#FFFFFF"
+            ohos:hint="请再次输入密码"
+            ohos:hint_color="#999999"
+            ohos:layout_alignment="horizontal_center"
+            ohos:text_alignment="center"
+            ohos:text_input_type="pattern_password"
+            ohos:text_size="17fp"
+            />
+
+    </DirectionalLayout>
+
+    <Button
+        ohos:id="$+id:Register"
+        ohos:height="47vp"
+        ohos:width="300vp"
+        ohos:background_element="$graphic:button_state"
+        ohos:text="注册"
+        ohos:text_size="20fp"
+        ohos:top_margin="77vp"
+        ohos:layout_alignment="center"
+        ohos:text_alignment="center"
+        ohos:text_color="#000000"
+        />
+
+</DirectionalLayout>

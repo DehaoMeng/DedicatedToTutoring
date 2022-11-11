@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_content"
+    ohos:orientation="horizontal"
+    ohos:background_element="$graphic:background_ability_user"
+    ohos:bottom_margin="3vp"
+    >
+    <Image
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:image_src="$media:awardpic"
+        ohos:scale_mode="stretch"
+        ohos:layout_alignment="center"
+        />
+    <Text
+        ohos:id="$+id:awardaccount"
+        ohos:height="60vp"
+        ohos:width="300vp"
+        ohos:text="10"
+        ohos:text_color="#000000"
+        ohos:text_size="30fp"
+        ohos:text_alignment="right |vertical_center"
+        ohos:right_padding="20vp"
+        />
+</DirectionalLayout>

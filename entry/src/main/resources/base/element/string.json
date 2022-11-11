@@ -1,0 +1,64 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "registerslice_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "registerslice_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_RegisterSlice",
+      "value": "entry_RegisterSlice"
+    },
+    {
+      "name": "registerability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "registerability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_RegisterAbility",
+      "value": "entry_RegisterAbility"
+    },
+    {
+      "name": "userability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "userability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_UserAbility",
+      "value": "entry_UserAbility"
+    },
+    {
+      "name": "sliderpageability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "sliderpageability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_SliderPageAbility",
+      "value": "entry_SliderPageAbility"
+    }
+  ]
+}

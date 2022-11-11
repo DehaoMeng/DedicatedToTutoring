@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_content"
+    ohos:orientation="horizontal"
+    ohos:alignment="center"
+    ohos:background_element="$graphic:promtdialog_background"
+    >
+    <Image
+        ohos:id="$+id:promtimg"
+        ohos:height="50vp"
+        ohos:width="50vp"
+        ohos:scale_mode="stretch"
+        ohos:image_src="$media:promt"
+        />
+    <Text
+        ohos:left_margin="20vp"
+        ohos:id="$+id:promtmsg"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_alignment="center"
+        ohos:text_color="#F0F0F0"
+        ohos:text_size="20fp"
+        ohos:text="你当前尚未登录"
+        />
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="50vp"/>
+
+
+</DirectionalLayout>
